@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  PORT: "8081"
+  stringval: "ConfigMap Test"
+kind: ConfigMap
+metadata:
+  name: express-configmap
